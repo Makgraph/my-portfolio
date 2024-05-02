@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about1.jpg";
-import CV from "../../assets/John-Cv.pdf";
+// import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/CV-Makenson.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -17,9 +18,10 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            Full-stack developer, I create web pages with JavaScript and UI / UX
+            user interface, I have about 3 years of experience and I'm always
+            working for friends, some clients and for myself. Many freinds and
+            clients are happy with the projects carried out.
           </p>
 
           <a download="" href={CV} className="button button--flex">

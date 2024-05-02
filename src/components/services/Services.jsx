@@ -17,7 +17,7 @@ const Services = () => {
         <div className="services__content">
           <i className="uil uil-web-grid services__icon"></i>
           <h3 className="services__title">
-            Product <br /> Designer
+            Web <br /> Developer
           </h3>
 
           <span onClick={() => toggleTab(1)} className="services__button">
@@ -37,10 +37,12 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">
+                Developer - UX/UI Designer - Graphic Designer
+              </h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies
+                With about 3 years of experience. providing quality work to
+                clients
               </p>
 
               <ul className="services__modal-services grid">
@@ -66,14 +68,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__mosal-info">
-                    I position your company brand.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__mosal-info">
-                    Design and mockups of products for companies.
+                    Design and mockups of products for projects.
                   </p>
                 </li>
               </ul>
@@ -106,8 +101,8 @@ const Services = () => {
 
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies
+                With about 3 years of experience. providing quality work to
+                clients
               </p>
 
               <ul className="services__modal-services grid">
@@ -133,14 +128,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__mosal-info">
-                    I position your company brand.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__mosal-info">
-                    Design and mockups of products for companies.
+                    Design and mockups of products for projects.
                   </p>
                 </li>
               </ul>
@@ -174,8 +162,8 @@ const Services = () => {
 
               <h3 className="services__modal-title">Visual Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies
+                With about 3 years of experience. providing quality work to
+                clients
               </p>
 
               <ul className="services__modal-services grid">
@@ -198,17 +186,17 @@ const Services = () => {
                   </p>
                 </li>
 
-                <li className="services__modal-service">
+                {/* <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__mosal-info">
                     I position your company brand.
                   </p>
-                </li>
+                </li> */}
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__mosal-info">
-                    Design and mockups of products for companies.
+                    Design and mockups of products for projects.
                   </p>
                 </li>
               </ul>

@@ -18,42 +18,10 @@ const Footer = () => {
                 Project
               </a>
             </li>
-
-            <li>
-              <a href="testimonials" className="footer__link">
-                Testimonials
-              </a>
-            </li>
           </ul>
 
-          <div className="footer__social">
-            <a
-              href="https://www.facebook.com"
-              className="footer__social-link"
-              target="_blank"
-            >
-              <i class="bx bxl-facebook"></i>
-            </a>
-
-            <a
-              href="https://instagram.com"
-              className="footer__social-link"
-              target="_blank"
-            >
-              <i class="bx bxl-instagram"></i>
-            </a>
-
-            <a
-              href="https://twitter.com"
-              className="footer__social-link"
-              target="_blank"
-            >
-              <i class="bx bxl-twitter"></i>
-            </a>
-          </div>
-
           <span className="footer__copy">
-            &#169; Crypticalcoder. All rigths reserved
+            &#169; Makgraphcoder. All rigths reserved
           </span>
         </h1>
       </div>
